@@ -1,0 +1,18 @@
+{
+    "manifest_version": 1,
+    "type": "extension",
+    "name": "关闭QQ空间",
+    "slug": "QQNT-RemoveZone",
+    "description": "移除QQ空间按钮",
+    "version": "0.1.0",
+    "author": [
+        {
+            "name": "cookieiz",
+            "link": "https://github.com/cookieiz"
+        }
+    ],
+    "injects": {
+        "renderer": "./renderer.js",
+        "main": "./main.js"
+    }
+}
